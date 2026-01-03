@@ -9,8 +9,8 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Doctors Appointment App",
-  description: "Connect with doctors anytime, anywhere",
+  title: "CareConnect | Your Healthcare, Simplified",
+  description: "Book appointments with top-rated doctors effortlessly.",
 };
 
 export default function RootLayout({ children }) {
@@ -37,7 +37,8 @@ export default function RootLayout({ children }) {
 
             <footer className="bg-muted/50 py-12">
               <div className="container mx-auto px-4 text-center text-gray-200">
-                <p>Made with 💗 by RoadsideCoder</p>
+                <p>ESE Project Web Development</p>
+                
               </div>
             </footer>
           </ThemeProvider>

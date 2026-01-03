@@ -1,9 +1,9 @@
 {
-  "name": "doctor-appointment",
+  "name": "CareConnect",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "NODE_OPTIONS='--no-webstorage' next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
